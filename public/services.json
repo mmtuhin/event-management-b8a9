@@ -1,0 +1,60 @@
+[
+    {
+      "id": "1",
+      "name": "Product Launch Extravaganza",
+      "image": "https://i.ibb.co/L8733hG/1.jpg",
+      "price": "$10,000",
+      "description": "The Product Launch Extravaganza is the pinnacle of product unveiling events. Hosted in a prestigious venue, this event is designed to leave a lasting impression. Your audience will be captivated by breathtaking presentations, live product demonstrations, and endorsements from industry experts. Our all-inclusive package covers venue rental, state-of-the-art multimedia setup, gourmet catering, and comprehensive marketing support to ensure your product takes center stage."
+    },
+    {
+      "id": "2",
+      "name": "Annual Shareholders Meeting",
+      "image": "https://i.ibb.co/3Wp5G1C/2.jpg",
+      "price": "$5,000",
+      "description": "The Annual Shareholders Meeting is a pivotal moment in your company's corporate governance. Held in a professional setting, this event brings shareholders and executives together to discuss financial reports, vote on strategic decisions, and gain insights into the company's future direction. Our package includes meticulous event planning, top-notch audiovisual equipment, comprehensive documentation, and a selection of refreshments to keep your stakeholders engaged."
+    },
+    {
+      "id": "3",
+      "name": "Tech Innovators Conference",
+      "image": "https://i.ibb.co/X4rF5kM/3.jpg",
+      "price": "$2,500",
+      "description": "Join the forefront of innovation at the Tech Innovators Conference. This dynamic event gathers tech leaders, innovators, and enthusiasts under one roof to explore the latest trends, breakthroughs, and industry insights. Your package encompasses thought-provoking keynote presentations, interactive breakout sessions, live tech demos, and exclusive access to our thriving tech community."
+    },
+    {
+      "id": "4",
+      "name": "Team Building Retreat",
+      "image": "https://i.ibb.co/8P2hnnk/4.jpg",
+      "price": "$7,500",
+      "description": "Escape the confines of the office and rejuvenate your team's spirit with our immersive Team Building Retreat. Nestled in a tranquil natural setting, this all-inclusive package offers a variety of team-building activities, skill-enhancing workshops, comfortable accommodations, and gourmet dining experiences. Strengthen bonds, promote collaboration, and return to work refreshed and re-energized."
+    },
+    
+    {
+      "id": "6",
+      "name": "Executive Leadership Retreat",
+      "image": "https://i.ibb.co/7KznpTc/5.jpg",
+      "price": "$9,500",
+      "description": "Refine your leadership acumen at the exclusive Executive Leadership Retreat. Tailored for senior executives and aspiring leaders, this program offers customized workshops, one-on-one coaching sessions, opulent accommodations, and exclusive access to a network of seasoned industry leaders. Elevate your leadership to new heights with this transformative experience."
+    },
+    {
+      "id": "7",
+      "name": "Employee Excellence Awards Gala",
+      "image": "https://i.ibb.co/2qR9KJm/7.jpg",
+      "price": "$6,000",
+      "description": "Celebrate and honor your top-performing employees at the glamorous Employee Excellence Awards Gala. This meticulously planned event includes event coordination, award ceremony management, elegant décor, exquisite gourmet catering, and live entertainment to create a memorable evening. Show your appreciation and motivate your workforce with this unforgettable gala."
+    },
+    {
+      "id": "8",
+      "name": "Annual Holiday Celebration",
+      "image": "https://i.ibb.co/XbM0xSP/8.jpg",
+      "price": "$4,000",
+      "description": "Spread holiday cheer and foster camaraderie with our Annual Holiday Celebration. This festive event is designed to bring employees together in a joyous atmosphere filled with delectable cuisine, live entertainment, and enchanting seasonal decorations. Our package takes care of all event logistics, ensuring your team enjoys a magical evening of celebration."
+    },
+    {
+      "id": "9",
+      "name": "Professional Development Workshop",
+      "image": "https://i.ibb.co/GswTp6z/9.jpg",
+      "price": "$1,500",
+      "description": "Invest in the professional growth of your workforce with our comprehensive Professional Development Workshop. Covering a wide range of topics including leadership, communication, and technical skills, this training program is facilitated by industry experts. Your package includes all materials, expert instruction, and refreshments to ensure an enriching learning experience."
+    }
+   
+  ]
