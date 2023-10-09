@@ -12,7 +12,7 @@ const EventCard = ({service}) => {
 
     const {id,name, image, price, description} = service
     return (
-            <div data-aos="zoom-in" className="bg-white m-4 p-4 rounded h-auto">
+            <div data-aos="zoom-in" className="bg-white mx-4 mb-4 p-4 rounded h-auto">
                 <img className="rounded" src={image} alt={name} />
                 <h3 className="font-semibold mt-3 bg-slate-300 py-1 text-center">{name}</h3>
                 <p className="text-gray-700 text-base">{description.slice(0,130) + "......."}</p>

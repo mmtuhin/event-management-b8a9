@@ -1,12 +1,13 @@
 import { useEffect, useState } from "react";
+import TestimonialCard from "../TestimonialCard.jsx/TestimonialCard";
 
-const LeftSidebar = () => {
+const Testimonials = () => {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     // Fetch data when the component mounts
-    fetch("/latest.json")
+    fetch("/testimonials.json")
       .then((response) => response.json())
       .then((data) => {
         setData(data);
@@ -18,21 +19,23 @@ const LeftSidebar = () => {
       });
   }, []);
 
+  {
+    /* {
+                data.map(item => <TestimonialCard key={item.id} item={item}></TestimonialCard>)
+            } */
+  }
+
   return (
-    <div className="bg-slate-300 px-4">
-      <img src="" alt="" />
-      {console.log(data)}
+    <div className="px-4 py-4">
       {loading ? (
         <p>Loading data...</p>
       ) : data ? (
         <div className="mt-4">
           <h1 className=" border border-slate-700 font-semibold mb-4 bg-slate-700 text-white py-2 px-2 rounded-sm">
-            Latest in gallery
+            Testimonials
           </h1>
-          <div className="grid grid-cols-1 gap-2">
-            {data.map((item) => (
-              <img className="rounded" key={item.id} src={item.image}></img>
-            ))}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-sm gap-4">
+            {data.map(item => <TestimonialCard key={item.id} item={item}></TestimonialCard>)}
           </div>
         </div>
       ) : (
@@ -42,4 +45,4 @@ const LeftSidebar = () => {
   );
 };
 
-export default LeftSidebar;
+export default Testimonials;

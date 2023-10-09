@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "customerName": "John Smith",
+      "comments": "Our company's annual conference was a huge success, thanks to the exceptional service provided by the events management team. They handled every detail with professionalism and creativity. We received rave reviews from our attendees.",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "customerName": "Emily Johnson",
+      "comments": "I can't express how satisfied I am with the team's performance. They turned our product launch event into a memorable experience for our clients. From the venue selection to the entertainment, everything was top-notch.",
+      "rating": 4.5
+    },
+    {
+      "id": 3,
+      "customerName": "David Lee",
+      "comments": "The corporate gala organized by this events management service exceeded our expectations. The attention to detail and the smooth execution of the event made it a night to remember. Highly recommended!",
+      "rating": 5
+    },
+    {
+      "id": 4,
+      "customerName": "Sarah Miller",
+      "comments": "As an event organizer myself, I have high standards. This team met and exceeded them. They understood our vision and executed flawlessly. It was a pleasure working with them.",
+      "rating": 4.7
+    },
+    {
+      "id": 5,
+      "customerName": "Michael Davis",
+      "comments": "I've used several event management services in the past, but none compare to the professionalism and creativity of this team. They made our corporate retreat unforgettable.",
+      "rating": 5
+    },
+    {
+      "id": 6,
+      "customerName": "Laura Wilson",
+      "comments": "The events management service delivered exceptional results for our annual awards ceremony. The team's dedication and commitment to excellence were evident throughout the planning and execution.",
+      "rating": 4.8
+    }
+    
+  ]

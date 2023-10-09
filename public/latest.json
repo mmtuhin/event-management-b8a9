@@ -2,61 +2,31 @@
     {
       "id": "1",
       "name": "Corporate Event Planning Summit 2023",
-      "image": "https://example.com/corporate_event_planning_summit.jpg",
+      "image": "https://i.ibb.co/x3C2yNr/1.jpg",
       "description": "Join industry leaders and top event planners at the Corporate Event Planning Summit 2023. Explore the latest trends, best practices, and innovative technologies in corporate event management. Network, learn, and elevate your event planning skills to new heights."
     },
     {
       "id": "2",
       "name": "Virtual Corporate Events Workshop",
-      "image": "https://example.com/virtual_corporate_events.jpg",
+      "image": "https://i.ibb.co/xYMs17X/2.jpg",
       "description": "Navigate the world of virtual corporate events with confidence. This hands-on workshop delves into virtual event platforms, engagement strategies, and effective planning techniques. Learn how to create engaging online experiences for your corporate clients."
     },
     {
       "id": "3",
       "name": "Sustainable Corporate Meetings Symposium",
-      "image": "https://example.com/sustainable_corporate_meetings.jpg",
+      "image": "https://i.ibb.co/9N3Cp6K/3.jpg",
       "description": "Discover sustainable practices for corporate meetings at this enlightening symposium. Explore eco-friendly venues, reduce waste, and implement green initiatives in your corporate events. Stay ahead in the sustainability movement."
     },
     {
       "id": "4",
       "name": "Corporate Gala Excellence Awards",
-      "image": "https://example.com/corporate_gala_awards.jpg",
+      "image": "https://i.ibb.co/Y3nbFcL/4.jpg",
       "description": "Celebrate excellence in corporate event planning at the Corporate Gala Excellence Awards. Recognize outstanding achievements, innovative event concepts, and successful collaborations. Join the industry's best for a glamorous evening of recognition."
     },
     {
       "id": "5",
       "name": "Corporate Event Technology Showcase",
-      "image": "https://example.com/event_technology_showcase.jpg",
+      "image": "https://i.ibb.co/6bWGYVL/5.jpg",
       "description": "Experience the future of corporate event tech at this interactive showcase. Test cutting-edge event management software, AR/VR solutions, and attendee engagement tools. Stay on the tech forefront to create memorable corporate events."
-    },
-    {
-      "id": "6",
-      "name": "Corporate Team Building Retreat",
-      "image": "https://example.com/team_building_retreat.jpg",
-      "description": "Invest in team cohesion and leadership skills at the Corporate Team Building Retreat. Escape to a tranquil setting for team-building activities, leadership workshops, and relaxation. Strengthen your team's bonds and boost productivity."
-    },
-    {
-      "id": "7",
-      "name": "Corporate Event Security Summit",
-      "image": "https://example.com/event_security_summit.jpg",
-      "description": "Safety is paramount in corporate events. Join experts to discuss event security, risk assessment, and crisis management. Protect your corporate gatherings and ensure the safety of your attendees and reputation."
-    },
-    {
-      "id": "8",
-      "name": "Corporate Event Design Masterclass",
-      "image": "https://example.com/event_design_masterclass.jpg",
-      "description": "Craft memorable corporate events with expert design strategies. This masterclass covers event aesthetics, decor trends, and immersive experiences. Learn how to create visually stunning and engaging corporate gatherings."
-    },
-    {
-      "id": "9",
-      "name": "Corporate Event Marketing Bootcamp",
-      "image": "https://example.com/event_marketing_bootcamp.jpg",
-      "description": "Boost your corporate event marketing skills with a comprehensive bootcamp. Dive into digital marketing, social media strategies, and audience engagement techniques. Attract larger audiences and increase the impact of your corporate events."
-    },
-    {
-      "id": "10",
-      "name": "Corporate Event ROI Conference",
-      "image": "https://example.com/event_roi_conference.jpg",
-      "description": "Maximize the return on investment for your corporate events. Join industry leaders to explore ROI measurement tools, event data analytics, and strategies for enhancing event profitability. Ensure your corporate events deliver measurable success."
-    }
+    }  
   ]
