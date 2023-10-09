@@ -1,7 +1,6 @@
 import { useContext, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../provider/AuthProvider";
-import { FaGoogle } from "react-icons/fa";
 import toast from "react-hot-toast";
 
 const Login = () => {
@@ -14,6 +13,7 @@ const Login = () => {
     e.preventDefault();
     const email = e.target.email.value;
     const password = e.target.password.value;
+
     signIn(email, password)
       .then(() => {
         setError(null)
@@ -60,6 +60,7 @@ const Login = () => {
               type="email"
               name="email"
               placeholder="jhon@wick.com"
+              required
             />
             <label
               className="block text-gray-700 text-sm font-bold mb-2"
@@ -72,6 +73,7 @@ const Login = () => {
               name="password"
               type="password"
               placeholder="Minumum 6 digit"
+              required
             />
             {
               error && <p className="text-sm text-red-500">{error.message}</p>
