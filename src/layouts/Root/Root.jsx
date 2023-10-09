@@ -4,6 +4,7 @@ import Footer from "../../components/Footer/Footer";
 import LeftSidebar from "../../components/LeftSidebar/LeftSidebar";
 import Banner from "../../components/Banner/Banner";
 import Testimonials from "../../components/Testimonials/Testimonials";
+import { Toaster } from "react-hot-toast";
 
 
 const Root = () => {
@@ -25,6 +26,7 @@ const Root = () => {
         {location.pathname === '/' && <Testimonials></Testimonials>}
         <Footer></Footer>
       </div>
+      <Toaster/>
     </div>
   );
 };

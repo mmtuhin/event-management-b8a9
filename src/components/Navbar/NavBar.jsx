@@ -3,40 +3,41 @@ import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../../provider/AuthProvider";
 
 const NavBar = () => {
-  const {user, logOut} = useContext(AuthContext)
+  const { user, logOut } = useContext(AuthContext);
+  //console.log(user);
 
   const handleSignOut = () => {
     logOut()
-    .then(console.log("Logout Successfull"))
-    .catch(console.log("Logout failed"))
-  }
+      .then(console.log("Logout Successfull"))
+      .catch(console.log("Logout failed"));
+  };
 
   const navLinks = (
     <>
-         <li>
+      <li>
         <NavLink to="/">
           {({ isActive, isPending }) => (
-            <a>
-              <span className={isActive ? "active" : ""}>Home</span>
-            </a>
+            <>
+              <span className={isActive ? "active" : ""}><span className="font-semibold">Home</span></span>
+            </>
           )}
         </NavLink>
       </li>
       <li>
         <NavLink to="/login">
           {({ isActive, isPending }) => (
-            <a>
+            <>
               <span className={isActive ? "active" : ""}>Login</span>
-            </a>
+            </>
           )}
         </NavLink>
       </li>
       <li>
         <NavLink to="/signup">
           {({ isActive, isPending }) => (
-            <a>
+            <>
               <span className={isActive ? "active" : ""}>Sign Up</span>
-            </a>
+            </>
           )}
         </NavLink>
       </li>
@@ -75,9 +76,23 @@ const NavBar = () => {
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>
       </div>
       <div className="navbar-end">
-        {
-          user? <a className="btn" onClick={handleSignOut}>Log Out</a> : <a className="btn"> <Link to="/login">Log In</Link></a>
-        }
+        {user ? (
+          <div className="flex justify-center items-center gap-2">
+            
+            <div className="avatar online">
+              <div className="w-10 rounded-full">
+                {user?.photoURL ? <img src={`${user.photoURL}`} alt=""/>: <img src={"../../defau.png"} alt=""/> }
+              </div>
+            </div>
+            <p className="font-semibold">{user.displayName}</p>
+            <button className="btn btn-neutral btn-sm" onClick={handleSignOut}>Logout</button>
+          </div>
+        ) : (
+          <span className="btn">
+            {" "}
+            <Link to="/login">Log In</Link>
+          </span>
+        )}
       </div>
     </div>
   );

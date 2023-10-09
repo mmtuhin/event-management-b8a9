@@ -6,6 +6,7 @@ import Signup from "../pages/Signup/Signup";
 import ServiceDetails from "../pages/ServiceDetails/ServiceDetails";
 import PrivateRoute from "./PrivateRoute";
 
+
 const router = createBrowserRouter([
     {
       path: "/",
