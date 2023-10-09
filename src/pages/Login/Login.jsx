@@ -78,7 +78,7 @@ const Login = () => {
             }
             <label className="label">
               <a href="#" className="label-text-alt link link-hover">
-                <Link to="/signup">New here? SIGN UP</Link>
+                <Link to="/signup">New here? <span className="font-bold text-lime-700">SIGN UP</span></Link>
               </a>
             </label>
           </div>

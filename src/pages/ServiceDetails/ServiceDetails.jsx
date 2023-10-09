@@ -13,7 +13,7 @@ const ServiceDetails = () => {
       </h1>
       <img className="mx-auto" src={service.image} alt="" />
       <p className="mx-4 my-6">{service.description}</p>
-      <div className="flex justify-between mx-4 my-6">
+      <div className="flex justify-between mx-8 my-6">
         <div>Price{service.price}</div>
         <button className="btn btn-primary">Purchase</button>
       </div>

@@ -104,7 +104,7 @@ const Signup = () => {
             />
             <label className="label">
               <p  className="label-text-alt link link-hover">
-                <Link to="/login">Have an account? LOGIN</Link>
+                <Link to="/login">Have an account? <span className="font-bold text-lime-700">LOGIN</span></Link>
               </p>
             </label>
           </div>

@@ -19,7 +19,7 @@ const LeftSidebar = () => {
   }, []);
 
   return (
-    <div className="bg-slate-300 px-4">
+    <div className="bg-amber-600 md:bg-slate-300 px-4">
       <img src="" alt="" />
       {loading ? (
         <p>Loading data...</p>

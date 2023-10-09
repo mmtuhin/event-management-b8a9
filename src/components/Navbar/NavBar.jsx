@@ -53,7 +53,7 @@ const NavBar = () => {
     </>
   );
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-slate-900 text-white md:text-black md:bg-base-100">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -74,7 +74,7 @@ const NavBar = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100  text-black md:text-white rounded-box w-52"
           >
             {navLinks}
           </ul>
@@ -86,7 +86,7 @@ const NavBar = () => {
       </div>
       <div className="navbar-end">
         {user ? (
-          <div className="flex justify-center items-center gap-2">
+          <div className="flex flex-col md:flex-row justify-center items-center gap-2">
             
             <div className="avatar online">
               <div className="w-10 rounded-full">
