@@ -54,6 +54,7 @@ const Signup = () => {
               className="shadow appearance-none border text-sm rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               type="text"
               name="name"
+              id="username"
               placeholder="name"
               required
             />
@@ -61,20 +62,21 @@ const Signup = () => {
           <div className="mb-6">
             <label
               className="block text-gray-700 text-sm font-bold mb-2"
-              htmlFor="password"
+              htmlFor="email"
             >
               Email
             </label>
             <input
               className="shadow appearance-none border text-sm rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
               type="email"
+              id="email"
               name="email"
               placeholder="example@mail.com"
               required
             />
             <label
               className="block text-gray-700 text-sm font-bold mb-2"
-              htmlFor="password"
+              htmlFor="profilePhoto"
             >
               Profile Image
             </label>
@@ -82,6 +84,7 @@ const Signup = () => {
               className="shadow appearance-none border text-sm rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
               type="text"
               name="profilePhoto"
+              id="profilePhoto"
               placeholder="image link..."
               required
             />
@@ -94,14 +97,15 @@ const Signup = () => {
             <input
               className="shadow appearance-none border text-sm  rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
               name="password"
+              id="password"
               type="password"
               placeholder="minumum 6 digit"
               required
             />
             <label className="label">
-              <a href="#" className="label-text-alt link link-hover">
+              <p  className="label-text-alt link link-hover">
                 <Link to="/login">Have an account? LOGIN</Link>
-              </a>
+              </p>
             </label>
           </div>
           <div className="flex items-center ">

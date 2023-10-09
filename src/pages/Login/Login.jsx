@@ -6,7 +6,7 @@ import toast from "react-hot-toast";
 
 const Login = () => {
   const { signIn, googleSignIn } = useContext(AuthContext);
-  const [error, setError] = useState()
+  const [error, setError] = useState(null)
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -16,26 +16,29 @@ const Login = () => {
     const password = e.target.password.value;
     signIn(email, password)
       .then(() => {
-        toast("Login Successfull!")
+        setError(null)
+        toast.success("Login Successfull!")
+        
         navigate(location?.state ? location.state : "/");
         e.clearData();
       })
       .catch((err) => {
         setError(err)
-        toast(error.message)
+        toast.error(error.message)
       });
   };
 
   const handleSocialSignIn = media => {
     media()
     .then(() => {
-      toast("Hello World");
+      toast.success("Login Successful!");
       navigate(location?.state ? location.state : "/");
+      setError(null)
     })
     .catch(err => {
       
       setError(err)
-      toast(error.message);
+      toast.error(error.message);
     })
   }
   return (
@@ -70,6 +73,9 @@ const Login = () => {
               type="password"
               placeholder="Minumum 6 digit"
             />
+            {
+              error && <p className="text-sm text-red-500">{error.message}</p>
+            }
             <label className="label">
               <a href="#" className="label-text-alt link link-hover">
                 <Link to="/signup">New here? SIGN UP</Link>

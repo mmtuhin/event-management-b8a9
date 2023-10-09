@@ -5,6 +5,8 @@ import Login from "../pages/Login/Login";
 import Signup from "../pages/Signup/Signup";
 import ServiceDetails from "../pages/ServiceDetails/ServiceDetails";
 import PrivateRoute from "./PrivateRoute";
+import Career from "../pages/Career/Career";
+import Blogs from "../pages/Blogs/Blogs";
 
 
 const router = createBrowserRouter([
@@ -21,6 +23,16 @@ const router = createBrowserRouter([
           path: '/service/:id',
           element: <PrivateRoute><ServiceDetails></ServiceDetails></PrivateRoute>,
           loader: () => fetch('/services.json')
+        },
+        {
+          path: '/career',
+          element: <PrivateRoute><Career></Career></PrivateRoute>,
+          loader: () => fetch('/jobs.json')
+        },
+        {
+          path: '/blogs',
+          element: <PrivateRoute><Blogs></Blogs></PrivateRoute>,
+          loader: () => fetch('/blogs.json')
         },
         {
             path:"/login",

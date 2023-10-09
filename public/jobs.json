@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "image_url": "https://example.com/job1.jpg",
+      "designation": "Event Manager",
+      "salary_range": "$60,000 - $80,000 per year",
+      "part_time": false,
+      "description": "We are looking for an experienced Event Manager to plan and execute corporate events. You will be responsible for coordinating logistics, managing budgets, and ensuring the success of each event."
+    },
+    {
+      "id": 2,
+      "image_url": "https://example.com/job2.jpg",
+      "designation": "Event Coordinator",
+      "salary_range": "$45,000 - $60,000 per year",
+      "part_time": false,
+      "description": "Join our team as an Event Coordinator. You will assist in planning and organizing corporate events, handling vendor relationships, and overseeing event details to ensure a seamless experience."
+    },
+    {
+      "id": 3,
+      "image_url": "https://example.com/job3.jpg",
+      "designation": "Conference Planner",
+      "salary_range": "$55,000 - $75,000 per year",
+      "part_time": false,
+      "description": "As a Conference Planner, you will specialize in organizing corporate conferences and meetings. Your responsibilities include venue selection, attendee registration, and managing event schedules."
+    },
+    {
+      "id": 4,
+      "image_url": "https://example.com/job4.jpg",
+      "designation": "Event Marketing Specialist",
+      "salary_range": "$50,000 - $70,000 per year",
+      "part_time": false,
+      "description": "We are seeking an Event Marketing Specialist to promote our corporate events. You will create marketing strategies, manage online and offline promotions, and measure campaign success."
+    },
+    {
+      "id": 5,
+      "image_url": "https://example.com/job5.jpg",
+      "designation": "Venue Manager",
+      "salary_range": "$55,000 - $75,000 per year",
+      "part_time": false,
+      "description": "Join our team as a Venue Manager responsible for overseeing event venues. You will manage venue bookings, coordinate with clients, and ensure the venues are well-prepared for events."
+    },
+    {
+      "id": 6,
+      "image_url": "https://example.com/job6.jpg",
+      "designation": "Event Production Specialist",
+      "salary_range": "$65,000 - $85,000 per year",
+      "part_time": false,
+      "description": "As an Event Production Specialist, you will focus on the technical aspects of corporate events. This includes audiovisual setup, lighting, staging, and ensuring a smooth event production process."
+    },
+    {
+      "id": 7,
+      "image_url": "https://example.com/job7.jpg",
+      "designation": "Event Sales Manager",
+      "salary_range": "$70,000 - $90,000 per year",
+      "part_time": false,
+      "description": "We are hiring an Event Sales Manager to generate revenue through corporate event sales. You will identify potential clients, create proposals, and close deals for event bookings."
+    },
+    {
+      "id": 8,
+      "image_url": "https://example.com/job8.jpg",
+      "designation": "Experiential Marketing Specialist",
+      "salary_range": "$60,000 - $80,000 per year",
+      "part_time": false,
+      "description": "Join our team as an Experiential Marketing Specialist. You will create immersive brand experiences through events, activations, and experiential marketing campaigns."
+    },
+    {
+      "id": 9,
+      "image_url": "https://example.com/job9.jpg",
+      "designation": "Event Operations Manager",
+      "salary_range": "$65,000 - $85,000 per year",
+      "part_time": false,
+      "description": "As an Event Operations Manager, you will oversee the logistical aspects of corporate events. This includes managing event staff, coordinating setups, and ensuring events run smoothly."
+    },
+    {
+      "id": 10,
+      "image_url": "https://example.com/job10.jpg",
+      "designation": "Corporate Event Planner",
+      "salary_range": "$55,000 - $75,000 per year",
+      "part_time": false,
+      "description": "We are seeking a Corporate Event Planner to design and execute memorable corporate events. You will collaborate with clients, create event concepts, and manage all event details."
+    }
+  ]
+  

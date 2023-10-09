@@ -24,10 +24,19 @@ const NavBar = () => {
         </NavLink>
       </li>
       <li>
-        <NavLink to="/login">
+        <NavLink to="/career">
           {({ isActive, isPending }) => (
             <>
-              <span className={isActive ? "active" : ""}>Login</span>
+              <span className={isActive ? "active" : ""}>Career</span>
+            </>
+          )}
+        </NavLink>
+      </li>
+      <li>
+        <NavLink to="/blogs">
+          {({ isActive, isPending }) => (
+            <>
+              <span className={isActive ? "active" : ""}>Blogs</span>
             </>
           )}
         </NavLink>
